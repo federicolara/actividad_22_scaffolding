@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20171213143941) do
     t.integer "age"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "Email"
+    t.string "email"
   end
 
 end
