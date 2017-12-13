@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SecondApp</title>
+    <%= csrf_meta_tags %>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-ddz2gcGSyD0hVzJiSEV/adGRMrX2Sn2B73KgLF8wwX2KMzDIjwnZ0do5qJ3CpKWF" crossorigin="anonymous">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
